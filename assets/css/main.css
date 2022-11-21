@@ -1,1 +1,246 @@
-teqsjfgjqsfgqsjkf loic
+/* ======================================
+-- template : Groxibootstrap
+- Author : Christelle DERELLE
+- Version : 1.0
+- website : githubpages.io
+========================================*/
+
+/* ORGANISATION */
+/* 00. IMPORT FONT */
+/* 01. GENERAL */
+/* 02. HELPERS */
+/* 02.1 Flexbox */
+/* 03. NAVBAR */
+/* 04. HEADER */
+/* 05. MAIN */
+/* 06. FOOTER */
+
+
+/* 00. IMPORT FONT */
+/* TOUJOURS au début du fichier CSS*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 01. GENERAL */
+
+/*  Color text */
+p.color-vc {
+    color: #a0cb23;
+}
+
+p.color-vf {
+    color: #01442d;
+}
+
+p.color-r {
+    color: #da485b;
+}
+
+/* Fond gris des articles */
+p.color-g {
+    color: #f6fafb;
+}
+
+/* Jaune réduction */
+p.color-j {
+    color: #fffc00;
+}
+
+
+
+
+/* 02. HELPERS */
+/* 02.1 flexbox */
+.btn-col1 {
+    background-color: #a0cb23;
+    color: #f6fafb;
+  }
+
+.btn-col2 {
+    background-color: #14462d;
+    color: #f6fafb;
+}
+
+.btn-col3 {
+    background: linear-gradient(135deg, #92ddd8, #95dcd6);
+    color: #f6fafb;
+    vertical-align: bottom;
+    padding: 5%;
+}
+
+.btn-col4 {
+    background: linear-gradient(135deg, #fb9823, #f58313);
+    color: #f6fafb;
+    vertical-align: bottom;
+    padding: 5%;
+}
+
+.btn-col5 {
+    background: linear-gradient(135deg, #afe223, #a0cb23);
+    color: #f6fafb;
+    vertical-align: bottom;
+    padding: 5%;
+}
+
+
+
+/* 03. NAVBAR */
+
+
+
+/* Je sélectionne les liens ds le dern élt de type ul de ma nav */
+/*nav ul:last-of-type a {
+    color: #a0cb23;
+    background: #f6fafb;
+    border-radius: 50%;
+}*/
+
+.menu-icon {
+    display: flex;
+}
+
+.menu-icon li {
+    list-style-type: none;
+    justify-content: center;
+    background: #f6fafb;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.menu-icon a {
+    color: #a0cb23;
+}
+
+/* Positionnement bulle de notification */
+.menu-icon span {
+    bottom: 10px;
+    left: 18px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #01442d;
+    border-radius: 50%;
+    padding: 0 0.8em;
+}
+
+/* Taille minimum pour que le menu puisse fonctionner */
+nav ul:first-of-type {
+    min-width: 70%;
+}
+
+/* NAVBAR RESPONSIVE */
+
+
+
+/* 04. HEADER*/
+
+header {
+    background: url(/Groxibootstrap/assets/img/banner.jpg) no-repeat center;
+    width: 1900px;
+    height: auto;
+}
+
+div.bg {
+    background: url(/Groxibootstrap/assets/img/bg_fruit.png) no-repeat;
+    width: 40px;
+    height: 25px;
+}
+
+
+/* 05. MAIN */
+/* MAIN SECTION BULLET START ne fonctionne pas et pourtant il y a de petites choses en responsiv */
+div.banner {
+    width: 400px;
+    height: 500px;
+    margin-top: 25em;
+}
+
+.bullet h2 {
+    font-size: 2em;
+    margin-left: 0.3em;
+    max-height: 160px;
+    width: 70px;
+    padding: 0.3em;
+}
+
+/* Images des bullets*/
+.bullet .legumes {
+    bottom: 0;
+    right: 0;
+}
+
+.bullet .boisson,
+.bullet .beaute {
+    bottom: 5%;
+    right: 5%;
+}
+
+.col {
+    color: #f6fafb;
+    font-size: smaller;
+    height: 400px;
+    padding : 40px;
+    margin-top: 20px;
+}
+
+.bullet .col:nth-of-type(1) div {
+    background: linear-gradient(135deg, #92ddd8, #95dcd6);
+}
+
+.bullet .col:nth-of-type(2) div {
+    background: linear-gradient(135deg, #fb9823, #f58313);
+}
+
+.bullet .col:nth-of-type(3) div {
+    background: linear-gradient(135deg, #afe223, #a0cb23);
+}
+
+/* Produits dans le vent */
+
+
+
+/* Id bg des pdts */
+
+ul {
+text-align: center;
+}
+
+.row .gx-5 {
+    background-color: navy;
+}
+
+h4 {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+p.grey {
+    color: grey;
+    font-size: large;
+    text-align: center;
+}
+
+.img-fluid {
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* 06. FOOTER */
+footer .container {
+    background: linear-gradient(135deg, #afe223, #a0cb23);
+}
+
+h5.white {
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+h6 {
+    color: #fffc00;
+    font-size: 70px;
+}
